@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body, html{
+	margin: auto;
+	font-size: 100%;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+body {
+	width: 98%;
+}
+
+#header{
+	padding-top: 0.1em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	border: 1px solid black;
+}
+
+#title{
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+#logout{
+	display: block;
+}
+
+#menu{
+	width: 8%; /* da modificare quando vengono messi i testi definitivi del menù*/
+	float: left;
+	margin-top: 1.0em;
+	margin-right: 1%;
+	margin-bottom: 1.0em;
+	margin-left: 1%;
+}
+
+#menuSpan{
+	font-size: 2em;
+	font-style: bold;
+	border-bottom: 1px solid black;
+}
+
+#topMenuList{
+	margin-top: 2em;
+	list-style: none;
+}
+
+#topMenuList > li{
+	font-size: 1.2em;
+	background-color: #6d8cf8;
+}
+
+.midMenuList > li{
+	font-size: 1em;
+	margin-left: 2em;
+}
+
+#section{
+	margin-left: 13%; /* controlla che questo valore sia uguale a quello del menù*/
+}
+
+#description{
+	margin-bottom:2em;
+}
+
+.attention{
+	color:red;
+}
+
+#login{
+	margin-left: 40em;
+}
+
+#failedLogin{
+	margin-left: 25em;
+	margin-top: 3em;
+	color: red;
+	font-size: 1.5em;
+}
+
+td, th{
+	border: 1px solid black;
+	text-align: center;
+	padding: 0em;
+	
+}
